@@ -1,0 +1,54 @@
+{% load static %}
+
+<section id="section-contact" class="section-full section-contact">
+        <div class="contact__content">
+            <h1>CONTACTAME</h1>
+            <div class="contact__content-form">
+                <form data-form="">
+                    
+                        <div class="form__info">
+                            <legend>¿Tienes algo en mente? ¡Hágamoslo juntos!</legend>
+                            <p>Completa el siguiente formulario y me contactaré contigo lo antes posible</p>
+                        </div>
+                        <div class="form__input flex-center cards__content">
+
+                            <div class="form__input-content cards__item aos-init" data-aos="zoom-in">
+
+                                <div class="cards__item-content flex-column">
+
+                                    <div class="input__container flex-column">
+
+                                        <input type="text" name="nombre" id="form-name" required="" placeholder=" " data-type="name" autocomplete="off" maxlength="50" title="Ingresa aquí tu nombre">
+                                        <label for="form-name" class="form__label">Nombre *</label>
+                                    </div>
+
+                                    <div class="input__container flex-column">
+
+                                        <input type="text" name="email" id="form-email" required="" placeholder=" " data-type="email" autocomplete="off" pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$" title="Ingresa aquí tu email">
+                                        <label for="form-email" class="form__label">Email *</label>
+                                    </div>
+
+                                    <div class="input__container flex-column">
+
+                                        <input type="text" name="asunto" id="form-subject" required="" placeholder=" " data-type="subject" autocomplete="off" maxlength="50" title="Ingresa aquí un asunto">
+                                        <label for="form-subject" class="form__label">Asunto *</label>
+                                    </div>
+
+                                    <div class="input__container flex-column">
+                                        <textarea id="form-mssg" cols="30" rows="10" required="" placeholder="Escribe aquí un mensaje" data-type="mssg" autocomplete="off" name="mensaje" maxlength="550" title="Ingresa aquí un mensaje personalizado (opcional)"></textarea>
+
+                                    </div>
+
+                                    <div class="flex-center" id="button-submit">
+                                        <button type="submit" class="button button-light box-shadow flex-center" id="submit" data-btn="submit">Enviar</button>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                </form>
+            </div>
+        </div>
+
+</section>  
